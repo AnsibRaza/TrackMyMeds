@@ -1,0 +1,30 @@
+
+$colors: (
+  primary:    #222,
+  secondary:  #32db64,
+  danger:     #f53d3d,
+  light:      #f4f4f4,
+  dark:       #222
+);
+.item-image {
+	width: 130px; 
+	height: 150px;
+	margin-left: 35%;
+	margin-top: 25%;
+    -webkit-transition: all 1.5s ease-in-out;
+    transition: all 1.5s ease-in-out;
+}
+
+.failuerAlertClass {
+.popup-head {
+	background-color: #009689 !important;
+}
+.popup-body {
+    background-color: brown;
+    color: #e6b400;
+}
+.popup-title {
+    font-weight: bold;
+}
+}
+

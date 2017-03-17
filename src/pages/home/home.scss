@@ -1,0 +1,49 @@
+page-home {
+
+.button_tomorrow{
+	background:#6388d5;
+	color: black;
+	font-size:12px;
+}
+
+.morning{
+	height:150px; 
+	min-height:100px;
+	//background:#B8860B;
+	background:url(../mor.jpg);
+	color: black;
+	font-size:12px;
+}
+
+.noon{
+	height:150px; 
+	min-height:100px;
+	//background:#B8860B;
+	background:url(../noon.jpg);
+	color: black;
+	font-size:12px;
+}
+
+.after_noon{
+	height:150px; 
+	min-height:100px;
+	//background:#B8860B;
+	background:url(../afternoon.jpg);
+	color: white;
+	font-size:12px;
+}
+
+.night{
+	height:150px; 
+	min-height:100px;
+	//background:#556B2F;
+	background:url(../night.jpg);
+	color: white;
+	font-size:12px;
+}
+
+.button-inner {
+  flex-flow: column;
+}
+
+}

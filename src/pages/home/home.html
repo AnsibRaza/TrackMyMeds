@@ -1,0 +1,70 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>TrackMyMeds</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding="true" class="margin-left:0px; padding-left:0px;">
+  <ion-grid style="margin-top:0%;">
+				<div class="row"> 
+					<div class="col col-50" style="margin-top:-6px;">
+					<ion-title>
+						<ion-datetime displayFormat="DDDD, DD MMM YY" [(ngModel)]="myDate"></ion-datetime>
+					</ion-title>
+				</div>
+				<div class="col col-50">
+				   <ion-buttons>
+						<button ion-button class="button button_tomorrow" style="margin-top:0px;">
+						<div>
+							Tomorrow
+						</div>
+					</button>
+					</ion-buttons>
+				</div>
+				</div>
+		<ion-row style="padding-left:0px; margin-left:0px;">
+			<ion-col width-50 text-center>
+				<button ion-button class="button log_btn morning" style="margin-top:0px;">
+					<div>
+						Panadol 50mg
+					</div>
+					<div>
+						8:00
+					</div>
+				</button>
+			</ion-col>
+			<ion-col  width-50 text-center>
+				<button ion-button class="button log_btn noon" style="margin-top:0px;">
+					<div>
+						Claricid 5mg
+					</div>
+					<div>
+						12:00
+					</div>
+				</button>
+			</ion-col>
+		</ion-row>
+		<ion-row style="padding-left=0px;">
+			<ion-col width-50 text-center>
+				<button ion-button class="button log_btn after_noon" style="margin-top:10%;">
+					<div>
+						Panadol 50mg
+					</div>
+					<div>
+						16:00
+					</div>
+				</button>
+			</ion-col>
+			<ion-col  width-50 text-center>
+				<button ion-button class="button log_btn night" style="margin-top:10%;">
+					<div>
+						Claricid 5mg
+					</div>
+					<div>
+						20:00
+					</div>
+				</button>
+			</ion-col>
+		</ion-row>
+	</ion-grid>
+</ion-content>

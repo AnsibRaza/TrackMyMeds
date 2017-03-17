@@ -1,0 +1,540 @@
+// http://ionicframework.com/docs/v2/theming/
+/* Empty. Add your own CSS if you like */
+.scroll-content{
+	margin:0;
+	height:100%;
+	}
+/*login*/
+.login_page{
+	background:url(../main.jpg);
+	background-size:100% 100%;
+	color:#000;
+    }
+.login_page .scroll{
+	height:100%;
+	}
+.logo{
+	background: transparent;
+	min-height: 45%;
+	height: 45%;
+	margin: 0px;
+	//border: 4px dotted #d3b145;
+	text-align: center;
+	}	
+.logo img{
+	position: absolute;
+	//width: 200px; 
+	height: 23%;
+	//margin-left: 27%;
+    -webkit-transition: all 1.5s ease-in-out;
+    transition: all 1.5s ease-in-out;
+	top:15%;
+	bottom:15px;
+	background: transparent !important;
+	transform:translateX(-50%);
+	}	
+
+	
+	
+.login_page .item-input{
+	background:none;
+	color:#000;
+	padding-top:5%;
+	padding-left: 8%;
+	padding-right:8%;
+	}	
+.login_page .list-inset{
+	margin-top:30px;
+	background:none;
+	}	
+.login_page .list-inset .item:last-child {
+	margin-bottom: 0;
+	}
+.login_page .list-inset .item:last-child{
+	border-bottom-right-radius:0;
+	border-bottom-left-radius:0
+	}  
+.login_page .list-inset .item:first-child{
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	}	
+.login_page .row{
+	padding-left:0%;
+	margin-left:3%;
+	}
+.login_page .col{
+	padding:0;
+	}	
+.login_page .button .button-positive{
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 44px;
+    margin: 0;
+    font-family: cursive;
+    padding: 0;
+	}
+.button{
+    border-radius: 0px;
+	background:#4267b2;
+    color: #fff;
+    font-size: 15px;
+    line-height:64px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 0;
+    font-weight: bold;
+	margin-top:20px;
+	min-width: 75%;
+	width: 85%;
+    }
+	
+.button-clear{
+	margin-top:0px;
+	min-width: 5%;
+	width: 5%;    
+}
+	
+.button-days{
+    border-radius: 0px;
+	background:#ea654f;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+	margin-top:0px;
+	min-width: 100%;
+	width: 100%;
+    }
+	
+.button-editDelete{
+    border-radius: 0px;
+	background:#ea654f;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+	margin-top:0px;
+	min-width: 50%;
+	width: 50%;
+    }
+	
+.button.button-positive.log_btn{
+	min-height: 75px;
+    height: 75px;
+    min-width: 75%;
+	width: 85%;
+    border-radius: 0px;
+	background:#4267b2;
+    color: #000;
+    font-size: 15px;
+    line-height:64px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 0;
+    font-weight: bold;
+	margin-top:20px;
+    }
+.button.button-positive.log_btn:hover{
+    background-color: #1b62da !important;
+	color:#000;
+}
+.button.button-positive.forget_btn{
+	background:transparent;
+	box-shadow: none;
+    white-space: nowrap;
+	color:#4267b2;
+	min-width: 85%;
+	width: 100%;
+	margin: auto auto;
+	}
+.login_page input::-webkit-input-placeholder {
+	color:#000;
+	font-family: cursive;
+	font-size:14px;
+	line-height:23px;
+	}
+.login_page input:-moz-placeholder { /* Firefox 18- */
+	color:#000;
+	font-family: cursive;
+	font-size:14px;
+	line-height:23px; 
+	}
+.login_page input::-moz-placeholder {  /* Firefox 19+ */
+	color:#000;
+	font-family: cursive;
+	font-size:14px;
+	line-height:23px; 
+	}
+.login_page input:-ms-input-placeholder {  
+	color:#000;
+	font-family: cursive;
+	font-size:14px;
+	line-height:23px;
+	}
+.login_page .placeholder-icon {
+	color: #000;
+	font-size: 22px;
+	margin:0 10px;
+	}	
+	
+.placeholder-icon {
+	color: #000;
+	font-size: 22px;
+	margin:0 10px;
+	}
+/*header*/
+
+.toolbar-background {
+  //background:url(../img/curve.png);
+  background-color:#cde0fb;
+  background-size:100%;
+  height:100%;
+  border:none;
+  padding:0
+}
+
+.toolbar .toolbar-title, .toolbar .bar-button-default {
+  color: #000;
+  text-align:center;
+}
+
+.bar.bar-stable{
+	height:20%;;
+	border:none;
+	background:#cde0fb;
+	padding:0
+	}	
+.bar.bar-stable .title{
+    font-size: 14px;
+    color: #000;
+    text-align: center !important;
+    font-weight: normal;
+    line-height:60px;
+	//font-family: cursive;	
+	margin:0
+	}	
+.bar.bar-stable .button.button-icon{
+	width:42px;
+	color:#fff;
+	line-height:60px;
+	min-height:50px;
+	}
+.bar.bar-stable .back_btn.button.button-icon{
+	position:absolute;
+	width: 42px;
+	color: #fff;
+	line-height: 65px;
+	min-height: 50px;
+	right:0
+	}
+.tabs .tabbar {
+  background: #cde0fb;
+}
+	
+/*list*/
+.list_task a{
+	text-decoration:none;
+	color:#000
+	}
+.list_task .row{
+	height: 100px;
+	border-bottom: 1px solid #e5e5e5;
+	padding-top: 14px;
+	}
+.list_task .inactive_task{
+	opacity:0.3
+	}
+.list_task .must_now{
+	background:#f9dedc
+	}			
+.day_task{
+	color:#ea654f;
+	font-size:14px;
+	margin-bottom:0;
+	padding-top:15px;
+	}
+.hold{
+	font-weight:bold;
+	color:#ea654f;
+	margin-left:25px;
+	}		
+.day_task i{
+	padding-right: 8px;
+    font-size: 20px;
+    width: 25px;
+    min-width: 25px;
+	}	
+.done_task{
+	color:#98aa35
+	}	
+.cir{
+	width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    background: #727272;
+    text-align: center;
+    color: #fff;
+    padding-top: 12px;
+	}	
+.cir p{
+	font-size:27px;
+	font-weight:bold;
+	font-family: cursive;
+	}	
+.cir span{
+	display: block;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 2px;
+	}	
+.list_task h3{
+	font-size:14px;
+	margin-bottom:4px;
+	color:#6b6a6a
+	}	
+.list_task .task_status{
+	font-size:14px;
+	margin-bottom:4px;
+	color:#6b6a6a
+	}	
+.time{
+	color: #ea654f;
+	line-height: 15px;
+	font-size: 13px;
+	}	
+.sub_head.bar-subheader {
+	top:48px;
+	display: block;
+	height:40px;
+	background:#ea654f;
+	overflow:hidden;
+	border:none;
+	background:url(../img/curve.png)no-repeat;
+	background-size:100% 40px
+	}
+.has-header {
+	top:90px;
+	}
+/*.curve{
+	width: 800px;
+	height: 800px;
+	border-radius: 800px;
+	background: #fff;
+	position: absolute;
+	left: -242px;
+	z-index:-1;
+	background:url(../img/curve.png)no-repeat;
+	background-size:100% 100%
+	}	*/	
+/*detail*/	
+.task_subhead.sub_head.bar-subheader{
+	height:130px;
+	padding:0;
+	box-shadow: 1px 1px 10px #999;
+	}
+.list_task.row{
+	padding-top:40px;
+	}		
+.detail_page.padding{
+	padding:25px;
+	}
+.detail_page.has-header{
+	top:180px;
+	}	
+.detail_page p{
+	color:#727272
+	}
+.detail_page .button.button-block{
+	border:none;
+	border-radius:0;
+	margin:0;
+	color:#fff;
+	font-family: cursive;
+	font-weight:lighter;
+	font-size:13px
+	}	
+.start_task.button.button-block{
+	background:#98aa35;
+	margin-top:20px;
+	}
+.detail_page .row{
+	padding:0
+	}
+.detail_page .col{
+	padding:0
+	}	
+.detail_page .two_btn .button.button-block{
+	background:#ea654f
+    }
+.detail_page .hold_btn.button.button-block{
+	background:#f18066
+    }	
+/*menu*/
+.menu_head{
+	height: 200px;
+	background:url(../img/bg_form.png)no-repeat;
+	background-size:100% 100%;
+	color:white;
+	text-align: center;
+    display: block;
+	padding-top:20px;
+	padding-bottom:20px;
+	}	
+.profile_img{
+	height: 80px;
+	border-radius: 20px;
+	display: block;
+	margin: 0 auto;
+	}	
+.menu_head h3{
+	margin-bottom:0;
+	font-family: cursive;
+	font-size:17px;
+	color:#fff;
+	margin-top:10px
+	}	
+.your_data{
+	display:inline-block;
+	text-align:left
+	}	
+.bar-stable.menu_head .button.button-clear{
+	font-family: cursive;
+	font-size:13px;
+	font-weight:bold;
+	padding:0
+	}	
+.menu .scroll-content{
+	background:#ea654f
+	}
+.menu_app .list{
+	padding-top:20px;
+	}	
+.menu_app .item{
+	background: none;
+    border: none;
+    font-family: cursive;
+    color: #fff;
+    font-size: 13px;
+	}
+.menu_app img{
+	margin-right:5px;
+	min-width:15px;
+	}		
+.menu_app .item-complex .item-content{
+	background:none;
+	padding-left:25px;
+	padding-right:25px
+    }
+.menu_app .item .badge{
+	color:#fff;
+	font-weight:normal;
+	font-size:15px;
+	right:20px
+	}	
+.menu_app .item .badge>span{
+	background:#eac84f;
+	padding:3px 7px;
+	margin-right:5px;
+	font-family: cursive;
+	margin-top:-2px
+	}	
+.menu_app .item.color_item{
+	background:#f18066;
+	}
+.menu_app .item:first-child{
+
+	}	
+.menu_app .item-icon-left .icon {
+	left: 73px;
+	font-size: 22px;
+	}	
+/*add_task*/
+.sub_head.task_det{
+	height:60px;
+	box-shadow: 1px 1px 10px #999;	
+	}
+.sub_head.task_det h3{
+	margin: 0;
+	text-align: center;
+	font-size: 15px;
+	padding-top: 19px;
+	color: #6b6a6a;
+	font-weight:bold;
+	font-family: cursive;
+    }
+.add_task.has-header{
+	top:110px;
+	padding:20px
+	}	
+.add_task span{
+	color:#ea654f;
+	font-size:14px;
+	font-family: cursive;
+	}	
+.add_task .item-input{
+	padding: 5px;
+    margin-bottom: 10px;
+	min-height:46px;
+	}
+.platform-ios input[type="date"]{
+	padding-top:0;
+	color:#999
+	}	
+.add_task .start_task.button.button-block{
+	color:#fff;
+	border:none;
+	border-radius:0
+    }
+.add_task .item-select select{
+	padding: 0;
+	width: 100%;
+	max-width: 100%;
+	direction: ltr;
+	padding-left: 5px;
+	color: #999;
+	}	
+/*IOS*/
+.platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) > * {
+	margin-top: 0px;
+	}	
+.platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) {
+	height:50px;
+	}	
+.platform-ios.platform-cordova:not(.fullscreen) .bar-subheader {
+	top: 50px;
+	}
+.platform-ios.platform-cordova:not(.fullscreen) .bar-header.menu_head:not(.bar-subheader) {
+	height:175px;
+	}	
+.platform-ios.platform-cordova:not(.fullscreen) .has-header.menu_app{
+	top:175px;
+	}
+.platform-ios.platform-cordova:not(.fullscreen) .has-header{
+	top:110px;
+	}	
+.platform-ios.platform-cordova:not(.fullscreen) .has-header.detail_page{
+	top: 180px;
+	}		
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
